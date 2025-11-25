@@ -56,13 +56,13 @@ public struct HTTPRequest {
   }
 
   /// The URL for the request
-  var url: URL
+  public var url: URL
   /// The HTTP method for the request
-  var method: HTTPMethod
+  public var method: HTTPMethod
   /// The HTTP headers for the request
-  var headers: [String: String]
+  public var headers: [String: String]
   /// The body of the request, if any
-  var body: Data?
+  public var body: Data?
 }
 
 // MARK: - HTTPResponse
